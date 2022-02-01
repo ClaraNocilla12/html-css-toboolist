@@ -6,7 +6,7 @@
 
 header{
     height: 70px;
-    border: 1px solid red;
+    
     
 }
 
@@ -37,7 +37,7 @@ main{
     height: 95%;
     border-radius: 1%;
     background-color: white;
-    border: 1px solid red;
+    
     margin: auto;
     
     
@@ -76,6 +76,51 @@ line-height: 40px;
  margin:2% auto 2% auto;
  
 }
+
+h3{
+    display: inline;
+}
+
+.check:before{
+    content: "\2713";
+    color: green;
+    text-align: center;
+    margin-top: 45%;
+    margin-left: 20%;
+    
+   
+    
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border:1px solid green;
+    border-radius: 50%;
+    display:inline-block;
+    
+}
+
+.tag{
+    height: 20px;
+line-height: 20px;
+ 
+ font-size:0.7rem;
+ width: auto; 
+ border-radius: 20%;
+ border:2px solid grey;
+ display:inline-block;
+ color: grey;
+ }
+
+ .todo-list{
+     margin-top:3%;
+ }
+
+ .line{
+     margin-top:1%;
+ }
+
 
 
 
